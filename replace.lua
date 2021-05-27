@@ -13,4 +13,4 @@ if replaceValue == "NONE" then
 end
 paragraph1 = getVar(args, "o", "paragraph")
 paragraph1 = paragraph1:gsub(findValue, replaceValue)
-setVar(args, "o", "paragraph" .. page, paragraph1)
+setVar(args, "o", "paragraph", paragraph1)
