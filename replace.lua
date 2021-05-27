@@ -1,4 +1,5 @@
 -- Written by Ovokalia-MoonGuard in 2020
+-- Fixed by Ovokalia-MoonGuard in 2021
 
 -- Assumes the findValue is in "findValue" and the replaceValue is in "replaceValue". Will replace the string in "paragraph".
 -- Assign the find and replace value NONE before the asynchronous update, this way it can be checked that the user didn't cancel.
