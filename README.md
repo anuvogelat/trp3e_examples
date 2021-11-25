@@ -11,4 +11,6 @@ eventhandling.lua - shows how to read a string and convert it into multiple vari
 
 replace.lua - Shows how to replace a value in a string called paragraph, where the findValue and replaceValue are in separate strings, usually collected using the Prompt For Input effect. It assumes they have been assigned NONE before the effect, so we can detect if the user canceled out of the flow.
 
-deck.lua - The code for a deck of cards where one card is drawn randomly from the container that this is the onUse for. Cards need to have a card workflow that assigns YES to the workflow variable "card" and a "draw" workflow that consumes itself and adds the same card to All Inventory. Other effects can be added.
+deck.lua - The code for a deck of cards where one card is drawn randomly from the container that this is the onUse for. Cards need to have a card workflow that assigns YES to the workflow variable "card" and a "draw" workflow that consumes itself and adds the same card to All Inventory. Other effects can be added. For smaller containers, change the 20 to the number of slots of the new container.
+
+deck2.lua - An extension for the deck.lua code that will automatically fill the deck with the inner items "card1" to "card20". For smaller containers change the 20 to the number of slots of the new container.
